@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Food Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+		#resume {
+            width: 100%; 
+            max-height: 1000px; 
+            object-fit: cover;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo up.jfif" alt="Filipino Food Reviews" id="logo">
+        <h1>Filipino Food Reviews</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#menu">Menu</a>
+		<a href="#about" id="aboutBtn">About</a>
+    </nav>
+    <div class="container" id="home">
+	
+        <h2 style="text-align:center;">Welcome to Filipino Food Reviews!</h2>
+       
+    </div>
+    
+  <div class="container" id="menu">
+    <h2 style="text-align:center;">Menu</h2>
+    <div class="menu-item">
+        <img src="adobo.jfif" >
+        <h3 >Adobo</h3>
+       
+    </div>
+    <div class="menu-item">
+        <img src="sinigang.jfif" >
+        <h3>Sinigang</h3>
+       
+    </div>
+    <div class="menu-item">
+        <img src="kare.jfiff" >
+        <h3>Kare-Kare</h3>
+       
+    </div>
+    <div class="menu-item">
+        <img src="lechon.png" >
+        <h3>Lechon</h3>
+        
+    </div>
+    <div class="menu-item">
+        <img src="sisig.jfif" >
+        <h3>Sisig</h3>
+        
+    </div>
+    <div class="menu-item">
+        <img src="shangia.jfif" >
+        <h3>Shanghai</h3>
+       
+    </div>
+    <div class="menu-item">
+        <img src="pancit.jfif" >
+        <h3>Pancit</h3>
+        
+    </div>
+    <div class="menu-item">
+        <img src="bulalo.jpg" >
+        <h3>Bulalo</h3>
+        
+    </div>
+</div>
+
+    </div>
+	<div class="container" id="reviews">
+        <h2>Reviews</h2>
+        <p>Here are some of our top-rated Filipino dishes:</p>
+		<h2>Adobo</h2>
+  <p>A savory and tangy Filipino dish made with chicken or pork marinated in vinegar and soy sauce.</p>
+
+  <h2>Sinigang</h2>
+  <p>A tamarind-based soup with various vegetables and your choice of meat, known for its sour flavor.</p>
+
+  <h2>Kare-Kare</h2>
+  <p>A rich Filipino oxtail stew with vegetables, served with a thick peanut sauce.</p>
+
+  <h2>Lechon</h2>
+  <p>A popular Filipino dish featuring roasted pig with crispy skin and tender meat.</p>
+
+  <h2>Sisig</h2>
+  <p>Sisig is a sizzling dish made from chopped pig's face and ears, usually served on a hot plate.</p>
+
+  <h2>Shanghai</h2>
+  <p>Shanghai rolls are Filipino spring rolls filled with ground pork and vegetables.</p>
+
+  <h2>Pancit</h2>
+  <p>Pancit is a term for Filipino noodle dishes, often stir-fried with a variety of ingredients.</p>
+
+  <h2>Bulalo</h2>
+  <p>Bulalo is a hearty Filipino beef soup made with bone marrow and vegetables.</p>
+</body>
+</html>
+<div class="container" id="about">
+ <div class="container" id="about" style="text-align: center;">
+        <h2>About</h2>
+        <button onclick="showResume()">Show Resume</button>
+        <img src="C:\Users\johnp\Downloads\resume.jpg" alt="Resume" id="resume">
+    </div>
+
+    <script>
+        function showResume() {
+            var resume = document.getElementById("resume");
+            resume.style.display = resume.style.display === "none" ? "block" : "none";
+        }
+    </script>
+
+</div>
